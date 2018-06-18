@@ -20,14 +20,14 @@
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="">Viaja</a></li>
         <li><a href="">Conduce</a></li>
-        <li><a href="#sing-in">Inicia sesión</a></li>
+        <li><a class="modal-trigger" href="#log-in">Inicia sesión</a></li>
       </ul>
     </div>
   </nav>
     <ul class="sidenav" id="mobile-demo">
         <li><a href="">Viaja</a></li>
         <li><a href="">Conduce</a></li>
-        <li><a href="">Inicia sesión</a></li>
+        <li><a class="modal-trigger" href="#log-in">Iniciar sesión</a></li>
     </ul>
 
   <!-- Sección de Disfruta del viaje -->
@@ -49,9 +49,9 @@
             Eres dueno de tu tiempo </span>
             <p class= "in-line"> Viaja con   </p> <img class="in-line"src="assets/images/logoBlanco.png" alt="">
           </div>
-          <a class="waves-effect waves-light btn btn-wth">Registrate</a>
+          <a class="waves-effect waves-light btn btn-wth modal-trigger" href="#sing-in">Registrate</a>
           <p class="option"> -------   O bien -------  </p>
-          <a class="waves-effect waves-light btn btn-wth">Conviértete en un conductor</a>
+          <a class="waves-effect waves-light btn btn-wth modal-trigger" href="#driver">Conviértete en un conductor</a>
         </div>
       </div>
     </div>
@@ -96,7 +96,7 @@
             <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
           </div>
           <div class="card-action">
-            <a class="waves-effect waves-light btn-small amber">Convierte en conductor</a>
+            <a class="waves-effect waves-light btn-small amber modal-trigger" href="#driver" >Convierte en conductor</a>
             <div class="row empty hide-on-large-only hide-on-med-only"></div>
             <div class="row empty hide-on-large-only hide-on-med-only"></div>
           </div>
@@ -204,6 +204,40 @@
       </div>
     </div>
   </footer>
+
+  <!-- Modal inicio de sesion -->
+  <div id="log-in" class="modal">
+      <div class="modal-content">
+          <h4>Modal Header</h4>
+          <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>    
+  </div>
+
+  <!-- Modal Registrarse -->
+  <div id="sing-in" class="modal">
+      <div class="modal-content">
+          <h4>Modal Header</h4>
+          <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>    
+  </div>
+
+  <!-- Modal Ser un conductor -->
+  <div id="driver" class="modal">
+      <div class="modal-content">
+          <h4>Modal Header</h4>
+          <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>    
+  </div>
+            
 
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
