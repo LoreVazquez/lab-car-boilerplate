@@ -1,1 +1,85 @@
 /* Los estilos de tu proyecto */
+body * {
+   margin: 0;
+  }
+
+.white{
+  background-color: white;
+}
+
+#nav-mobile a, .fa-bars{
+  color: black;
+}
+
+.lab-car{
+  margin-left: 2em;
+}
+
+.in-line{
+  display: inline-block;
+}
+
+.strong{
+  font-weight: 700;
+}
+.btn-wth{
+  background-color: white;
+  color: black;
+  margin: 1em;
+}
+
+.option{
+  color: white;
+  text-align: center;
+}
+
+.first{
+  background-image: url(../assets/images/taxi.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.empty{
+  height: 10vw;
+  margin: 0;
+}
+
+.red-empty{
+  height: 21vw;
+  margin: 0;
+}
+
+.list-empty{
+  height: 15vw;
+  margin: 0;
+}
+
+.drive{
+  background-image: url(../assets/images/conduce.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.n-color{
+  background-color: black;
+  opacity: .7;
+}
+
+.title{
+  color: white;
+  font-weight: 600;
+  margin: 5vh 0 2vh 0;
+}
+
+::placeholder{
+  color: white;
+}
+
+.redes li{
+  display: inline-block;
+  padding: 5px;
+}
+
+.list li{
+  padding: 5px;
+}
