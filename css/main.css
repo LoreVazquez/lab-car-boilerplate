@@ -3,10 +3,6 @@ body * {
    margin: 0;
   }
 
-.white{
-  background-color: white;
-}
-
 #nav-mobile a, .fa-bars{
   color: black;
 }
@@ -82,4 +78,12 @@ body * {
 
 .list li{
   padding: 5px;
+}
+
+.n-padding{
+  padding: 0 !important;
+}
+
+.n-margin{
+  margin: 0;
 }
