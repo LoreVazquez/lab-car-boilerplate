@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>lab-car</title>
+    <link rel="shortcut icon" href="assets/images/logotitle (1).ico" type="image/x-icon">
+    <title>Lab-car</title>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -13,14 +14,14 @@
 </head>
 <body>
   <!-- Barra de Navegación-->
-  <nav>
+  <nav class>
     <div class="nav-wrapper white">
       <a href="#" class="brand-logo lab-car left "><img src="assets/images/logoForma.png" alt=""></a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons"><i class="fas fa-bars"></i></i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="">Viaja</a></li>
         <li><a href="">Conduce</a></li>
-        <li><a class="modal-trigger" href="#log-in">Inicia sesión</a></li>
+        <li><a class="modal-trigger" href="#log-in">Iniciar sesión</a></li>
       </ul>
     </div>
   </nav>
@@ -46,7 +47,7 @@
         <div class="card amber hide-on-small-only">
           <div class="card-content white-text">
             <span class="card-title strong">Disfruta del viaje <br> 
-            Eres dueno de tu tiempo </span>
+            Eres dueño de tu tiempo </span>
             <p class= "in-line"> Viaja con   </p> <img class="in-line"src="assets/images/logoBlanco.png" alt="">
           </div>
           <a class="waves-effect waves-light btn btn-wth modal-trigger" href="#sing-in">Registrate</a>
@@ -213,7 +214,7 @@
     <div class="modal-content teal darken-1">
       <div class="row">
           <div class="container">
-            <img class="col l3 offset-l4" src="assets/images/usuario.png" alt="">
+            <img class="col l3 offset-l4 responsive-img" src="assets/images/usuario.png" alt="">
           </div>
       </div>
       <div class="divider"></div>
@@ -238,28 +239,138 @@
 
   <!-- Modal Registrarse -->
   <div id="sing-in" class="modal">
-      <div class="modal-content">
-          <h4>Modal Header</h4>
-          <p>A bunch of text</p>
-        </div>
-        <div class="modal-footer">
-          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
-        </div>    
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"><i class="fas fa-window-close"></i></a>
+    </div> 
+    <div class="modal-content grey lighten-2">
+      <div class="row container">
+        <a class="waves-effect waves-light btn-small col l12">Ya tienes una cuenta?</a>
+        <p class="center-align">O crea una cuenta nueva...</p>
+        <form class="col s12">
+          <div class="row n-margin">
+            <div class="input-field col s6">
+              <input id="first_name" type="text" class="validate">
+              <label for="first_name">Nombre</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Apellido</label>
+            </div>
+          </div>
+          <div class="row n-margin">
+            <div class="input-field col s12">
+              <input id="tel" type="tel" class="validate">
+              <label for="tel">Teléfono</label>
+            </div>
+          </div>
+          <div class="row n-margin">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+            </div>
+          <div class="row n-margin">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate">
+              <label for="password">Password</label>
+            </div>
+          </div>
+          <div class="row n-margin">
+            <div class="input-field col s12">
+              <input id="city" type="text" class="validate">
+              <label for="city">Ciudad</label>
+            </div>
+          </div>
+          <div class="row n-margin">
+            <div class="input-field col s12">
+              <input id="cupon" type="text" class="validate">
+              <label for="cupon">(Opcional) Código de invitación</label>
+            </div>
+          </div>
+          <div class="input-field col s12">
+            <select>
+              <option value="" disabled selected>Cómo te enteraste de nosotros?</option>
+              <option value="1">Redes sociales</option>
+              <option value="2">Recomendación</option>
+              <option value="3">Publicidad</option>
+            </select>
+          </div>
+          <button class="btn waves-effect waves-light col l12" type="submit" name="action">Enviar</button>
+        </form>
+      </div>
+    </div>
   </div>
 
   <!-- Modal Ser un conductor -->
   <div id="driver" class="modal">
-      <div class="modal-content">
-          <h4>Modal Header</h4>
-          <p>A bunch of text</p>
-        </div>
-        <div class="modal-footer">
-          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
-        </div>    
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat"><i class="fas fa-window-close"></i></a>
+    </div> 
+    <div class="modal-content grey lighten-2">
+      <div class="row container">
+        <form class="col s12">
+          <div class="row n-margin">
+            <div class="input-field col s12">
+              <select>
+                <option value="" disabled selected>Elige tu opción</option>
+                <option value="1">Si</option>
+                <option value="2">No</option>
+              </select>
+              <label>Tienes vehículo de 4 puertas?</label>
+            </div>
+          </div>
+
+          <div class="row n-margin">
+            <div class="input-field col s12">
+              <select>
+                <option value="" disabled selected>Elige la marca del vehículo</option>
+                <option value="1">Nissan</option>
+                <option value="2">Toyota</option>
+                <option value="3">BMW</option>
+              </select>
+              <label>Marca</label>
+            </div>
+            <p class="container">No ves tu vehículo en la lista? Envía un e-mail a sociosmdv@uber.com</p>
+          </div>
+
+          <div class="row n-margin">
+              <div class="input-field col s12">
+                  <select>
+                    <option value="" disabled selected>Selecciona el modelo</option>
+                    <option value="1">Modelo 1</option>
+                    <option value="2">Modelo 2</option>
+                    <option value="3">Modelo 3</option>
+                  </select>
+                  <label>Modelo</label>
+                </div>
+          </div>
+          <div class="row n-margin">
+              <div class="input-field col s12">
+                  <select>
+                    <option value="" disabled selected>Elige el año</option>
+                    <option value="1">2018</option>
+                    <option value="2">2017</option>
+                    <option value="3">2016</option>
+                  </select>
+                  <label>Año</label>
+                </div>
+          </div>
+          <div class="row n-margin">
+              <div class="input-field col s12">
+                <input id="matricula" type="text" class="validate">
+                <label for="matricula">Número de matrícula</label>
+              </div>
+              <p class="container">La información de la matrícula ayuda a los clientes a identificar tu vehículo.</p>
+          </div>
+          <button class="btn waves-effect waves-light col l12" type="submit" name="action">Enviar</button>
+        </form>
+      </div>
+    </div>
   </div>
             
 
   <!-- Compiled and minified JavaScript -->
+  <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   <script src="js/app.js"></script>
 </body>
