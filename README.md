@@ -1,8 +1,13 @@
 # Lab<Car
 ## Lab<Car's layout clone by using CSS Frameworks
 
+![caratula](https://user-images.githubusercontent.com/37418584/45059276-137bd900-b061-11e8-8854-2f90727aa1a7.PNG)
+
+***
+
 ![CSS](assets/images/Readme/css.jpg)
 ![Materialize](assets/images/Readme/materialize.jpg)
+
 
 ### 1. Recreate following web layout
 
