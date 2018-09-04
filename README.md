@@ -1,5 +1,5 @@
 # Lab<Car
-## Layout by using Frameworks
+## Lab<Car's layout clone by using CSS Frameworks
 
 ![CSS](assets/images/Readme/css.jpg)
 ![Materialize](assets/images/Readme/materialize.jpg)
@@ -11,3 +11,5 @@
 ### 2. Recreate following mobile layout
 
 ![CSS](assets/images/Readme/v-movil.png)
+
+## Proyecto desarrollado en [Laboratoria](http://laboratoria.la)
