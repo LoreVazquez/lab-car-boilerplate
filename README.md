@@ -6,7 +6,7 @@
 
 ### 1. Recreate following web layout
 
-![CSS](assets/images/Readme/desktop.png)
+![CSS](https://user-images.githubusercontent.com/37418584/45058906-b29fd100-b05f-11e8-8fe2-203a9a92f475.png)
 
 ### 2. Recreate following mobile layout
 
